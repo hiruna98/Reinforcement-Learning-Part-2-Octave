@@ -1,0 +1,1 @@
+state = 3;statewhile state~= goal  [mx,action] = max(q(state,:));  state = action;  state  end
